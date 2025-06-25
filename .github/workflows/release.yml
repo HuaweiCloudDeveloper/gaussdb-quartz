@@ -9,9 +9,9 @@ on:
 
 jobs:
   release:
-    if: github.repository == 'HuaweiCloudDeveloper/gaussdb-hibernate-orm'
+    if: github.repository == 'HuaweiCloudDeveloper/gaussdb-quartz'
     runs-on: ubuntu-latest
-    environment: gaussdb-hibernate-orm-build
+    environment: gaussdb-quartz-orm-build
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 17
